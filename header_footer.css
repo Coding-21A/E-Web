@@ -1,0 +1,95 @@
+body{
+	font-family: verdana;
+}
+*
+{
+ margin:0;
+ padding:0;
+}
+header, footer{
+	position:absolute;
+	background-color:#0077B6;
+	width:100%;
+	color:white;
+}
+header h2{
+	position: absolute;
+	margin-top: 20px;
+	left: 8%;
+	color:white;
+}
+header{
+	height:10vh;
+}
+footer{
+	height:15vh;
+	bottom:0;
+}
+footer h2{
+	position: absolute;
+	left: 45%;
+}
+.nav{
+	position:absolute;
+	width:100%;
+}
+.nav a{
+	position:relative;
+	left:45%;
+	top: 20px;
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.nav a:hover {
+  background-color: #00B4D8;
+  color: black;
+}
+.nav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 2px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .search-container button:hover {
+  background: #ccc;
+}
+.nav .search-container {
+  float: right;
+  margin-top: 15px;
+  padding: 5px 10px;
+  height: 40px;
+
+}
+.nav input[type=text] {
+  padding: 6px;
+  margin-top: 2px;
+  font-size: 17px;
+  border: none;
+}
+footer p{
+	position: absolute;
+	left:48%;
+   bottom: 20px;
+   color:white;
+}
+
+ .nav img.hello{
+    position:absolute;
+    height:auto;
+    left:0px;
+    width:100px;
+    padding:5px;
+  }
+  .myclass{
+  	background-image: center;
+  	margin:200px;
+  	padding:120px;
+  	margin-top: 2px;
+  }
+ 
